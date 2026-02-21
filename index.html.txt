@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Portfolio</title>
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER SECTION ================= -->
+    <header>
+        <h1>Bhakti Vhanamane</h1>
+        <p>Web Developer | Student | Creative Learner</p>
+    </header>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section class="about">
+        <h2>About Me</h2>
+
+        <!-- Your photo -->
+        <img src="profile.jpg" alt="My Photo">
+
+        <p>
+            Hello! My name is Bhakti. I am a beginner web developer.
+            I love designing simple and clean websites using HTML and CSS.
+            I am currently learning programming and improving my skills
+            day by day.
+        </p>
+    </section>
+
+
+    <!-- ================= SKILLS SECTION ================= -->
+    <section class="skills">
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic JavaScript</li>
+            <li>C Programming</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+
+    <!-- ================= PROJECT SECTION ================= -->
+    <section class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-box">
+            <h3>Calculator Website</h3>
+            <p>
+                I created a simple calculator using HTML, CSS and JavaScript.
+                It performs basic arithmetic operations.
+            </p>
+        </div>
+
+        <div class="project-box">
+            <h3>Landing Page Design</h3>
+            <p>
+                Designed a responsive landing page using modern CSS layout.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- ================= RESUME SECTION ================= -->
+    <section class="resume">
+        <h2>My Resume</h2>
+
+        <a href="resume.pdf" download class="btn">
+            Download My Resume
+        </a>
+    </section>
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: bhakti@email.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>© 2026 Bhakti Vhanamane. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
